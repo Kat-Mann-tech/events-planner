@@ -1,0 +1,55 @@
+/* Global colour variables */
+
+:root {
+  --cream: #fff9ed;
+  --yellow: #ffe45e;
+  --pink: #f45b9a;
+  --red: #f05252;
+  --purple: #7564a5;
+
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Reset default browser spacing- * means universal selector*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base page styling */
+
+body {
+  background-color: var(--cream);
+  color: #333;
+}
+
+/* Creates space below the fixed header */
+
+#root {
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+/* Global heading colours */
+
+h1,
+h2,
+h3 {
+  color: var(--purple);
+}
+
+/* Remove default link styling */
+
+a {
+  text-decoration: none;
+}
+
+/* Use the site's font throughout forms */
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}

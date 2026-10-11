@@ -1,0 +1,75 @@
+/* Fixed navigation bar */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7564a5;
+  color: #fff9ed;
+  padding: 1rem 2rem;
+  z-index: 1000;   /* keeps the header on top of the page content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation links layout*/
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Navigation link styling */
+
+.header a {
+  color: #fff9ed;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header a:hover {
+  color: #ffe45e;
+}
+
+.header a.active {
+  color: #ffe45e;
+}
+
+/* Logout button styling */
+
+.header button {
+  background-color: #f45b9a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Responsive design for smaller screens */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+
+  .header a,
+  .header button {
+    font-size: 0.9rem;
+  }
+
+  .header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .header button {
+    margin-top: 0.5rem;
+  }
+}
