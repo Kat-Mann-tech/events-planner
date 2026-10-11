@@ -6,7 +6,6 @@ import Register from "./pages/Register";
 import AddEvent from "./pages/AddEvent";
 import EditEvent from "./pages/EditEvent";
 import Help from "./pages/Help";
-import "./App.css";
 import Header from "./components/Header";
 
 function App() {

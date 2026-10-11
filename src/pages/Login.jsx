@@ -45,7 +45,7 @@ function Login() {
       </form>
 
       <p>
-        Don't have an account? <Link to="/register">Register here</Link>  // directs to register page
+        Don't have an account? <Link to="/register">Register here</Link>  {/* directs to register page */}
       </p>
     </div>
   );

@@ -1,3 +1,5 @@
+// decided users don't need to be logged in to read the help page
+
 import "../CSS/Help.css";
 
 function Help() {
